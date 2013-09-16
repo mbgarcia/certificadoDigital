@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+
+<!-- Form Beans -->
+
+    <form-beans>
+        <form-bean name="formCertificacao" type="org.apache.struts.validator.DynaValidatorActionForm">
+        	<form-property name="method" type="java.lang.String" />
+        </form-bean>
+    </form-beans>
+    
+	<!-- Action Mappings -->
+
+    <action-mappings>
+        <action
+            path="/certificacao"
+            type="br.com.struts.ActionCertificacao"
+            parameter="method"
+            scope="request"
+            name="formCertificacao"
+            validate="false">
+            
+			<forward name="token" path="/certificacao/token.jsp"/>
+    	</action>
+	</action-mappings>
+</struts-config>

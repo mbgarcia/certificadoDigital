@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-app_2_4.xsd"
+	version="2.4">
+
+	<display-name>certificado</display-name>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<description></description>
+		<display-name>ArquivoServlet</display-name>
+		<servlet-name>ArquivoServlet</servlet-name>
+		<servlet-class>br.com.servlet.ArquivoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ArquivoServlet</servlet-name>
+		<url-pattern>/ArquivoServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DLLServlet</display-name>
+		<servlet-name>DLLServlet</servlet-name>
+		<servlet-class>br.com.servlet.DLLServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DLLServlet</servlet-name>
+		<url-pattern>/DLLServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>action</servlet-name>
+		<servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/conf/struts-config.xml</param-value>
+		</init-param>
+
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<taglib>
+		<taglib-uri>tags/struts-bean</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-bean.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/struts-html</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-html.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/struts-logic</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-logic.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/struts-tiles</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-tiles.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/c</taglib-uri>
+		<taglib-location>/WEB-INF/tld/c.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/fmt</taglib-uri>
+		<taglib-location>/WEB-INF/tld/fmt.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/fn</taglib-uri>
+		<taglib-location>/WEB-INF/tld/fn.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/struts-bean-el</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-bean-el.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/struts-html-el</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-html-el.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/struts-logic-el</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-logic-el.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>tags/struts-tiles-el</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-tiles-el.tld</taglib-location>
+	</taglib>
+</web-app>

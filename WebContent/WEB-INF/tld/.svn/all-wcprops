@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld
+END
+struts-logic-el.tld
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/struts-logic-el.tld
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/struts-logic.tld
+END
+struts-tiles-el.tld
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/struts-tiles-el.tld
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/c.tld
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/struts-tiles.tld
+END
+fn.tld
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/fn.tld
+END
+struts-html-el.tld
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/struts-html-el.tld
+END
+struts-bean-el.tld
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/struts-bean-el.tld
+END
+fmt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/fmt.tld
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/struts-html.tld
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/prj-funasamg/!svn/ver/528/HEAD/wf/FunasaWF-Web/WebRoot/WEB-INF/tld/struts-bean.tld
+END
